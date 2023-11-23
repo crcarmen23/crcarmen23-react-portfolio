@@ -1,7 +1,8 @@
-export default function Contact() {
+/* eslint-disable react/no-unescaped-entities */
+export default function ContactMe() {
   return (
     <div>
-      <h1>Contact Page</h1>
+      <h1>Let's Get in Touch!</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
         molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
