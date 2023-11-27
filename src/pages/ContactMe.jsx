@@ -6,20 +6,50 @@ function ContactMe() {
   
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
-  const [email] = useState('');
-  const [message] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const validateEmail=(email) => {
+    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
+  }
 
   const handleInputChange = (e) => {
  
     const { name, value } = e.target;
 
-    // Ternary statement that will call either setFirstName or setLastName based on what field the user is typing in
-    return name === 'firstName' ? setFirstName(value) : setLastName(value);
+    
+    switch (name) {
+      case firstName:
+        setFirstName(value)
+        break;
+      case lastName:
+        setLastName(value)
+        break;
+      case email:
+        setEmail(value)
+        break;
+      case message:
+        setMessage (value)
+        break;
+    
+      default:
+        break;
+    }
+    return 
   };
 
   const handleFormSubmit = (e) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
+
+    if (!validateEmail(email)) {
+      setErrorMessage('Email address is invalid');
+    
+      return;
+      
+    }
 
     // Alert the user their first and last name, clear the inputs
     alert(`Hello ${firstName} ${lastName}`);
@@ -41,6 +71,7 @@ function ContactMe() {
           onChange={handleInputChange}
           type="text"
           placeholder="First Name"
+          required
         />
         <input
           value={lastName}
@@ -48,13 +79,15 @@ function ContactMe() {
           onChange={handleInputChange}
           type="text"
           placeholder="Last Name"
+          required
         />
          <input
           value={email}
-          name="emailAddress"
+          name="email"
           onChange={handleInputChange}
           type="text"
           placeholder="Email Address"
+          required
         />
          <input
           value={message}
@@ -62,11 +95,17 @@ function ContactMe() {
           onChange={handleInputChange}
           type="text"
           placeholder="Message"
+          required
         />
         <button type="submit">
           Submit
         </button>
       </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </div>
     </div>
   );

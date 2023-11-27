@@ -5,6 +5,11 @@ body {
   margin: 0;
 }
 
+main {
+  height: 100vh;
+  
+}
+
 .nav-tabs {
   justify-content: center;
   color: #333;
@@ -63,7 +68,6 @@ article {
 #root {
   max-width: 1500px;
   margin: 0;
-  padding: 2rem;
   text-align: center;
   background-color: #91aee4;
 }
@@ -72,6 +76,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  height: 100vh;
 }
 
 footer {
