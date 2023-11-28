@@ -6,7 +6,8 @@ export default function Portfolio() {
       description: "Street style fashion blog that allows users to stay informed on the ever-evolving world of fashion.",
       deployed: "https://arcane-bastion-46349-44530c72db10.herokuapp.com/",
       repo: "https://github.com/crcarmen23/style-saga",
-      image: "",
+      image: "/stylesaga.png",
+      alt: "image of style saga homepage",
     },
     {
       title: "Project 3",
@@ -14,6 +15,7 @@ export default function Portfolio() {
       deployed: "",
       repo: "",
       image: "",
+      alt: "image of homepage",
     },
     {
       title: "Europe in Your Pocket",
@@ -21,6 +23,7 @@ export default function Portfolio() {
       deployed: "",
       repo: "",
       image: "",
+      alt: "image of project homepage",
     },
     {
       title: "Weather Dashboard",
@@ -28,6 +31,7 @@ export default function Portfolio() {
       deployed: "",
       repo: "",
       image: "",
+      alt: "image of weather dashboard",
     },
     {
       title: "Work Day Scheduler",
@@ -35,6 +39,7 @@ export default function Portfolio() {
       deployed: "",
       repo: "",
       image: "",
+      alt: "image of work day scheduler",
     },
     {
       title: "First Mockup Portfolio",
@@ -42,6 +47,7 @@ export default function Portfolio() {
       deployed: "",
       repo: "",
       image: "",
+      alt: "image of first portfolio",
     }
   ]
 
@@ -55,7 +61,7 @@ export default function Portfolio() {
           projects.map((project) => (
             <div className="col-md-4 col-sm-12 mb-5" key={project.title}>
               <div className="card">
-                <img src={project.image} className="card-img-top" alt="..."/>
+                <img src={project.image} className="card-img-top" alt={project.alt}/>
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.description}</p>
