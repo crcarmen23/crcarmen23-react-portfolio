@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from 'react';
 
-
 function ContactMe() {
 
   const [firstName, setFirstName] = useState('');
@@ -52,9 +51,9 @@ function ContactMe() {
   };
 
   return (
-    <div>
+    <div className="m-5">
       <h1>Let's Get in Touch!</h1>
-      <div className="container text-center">
+      <div className="card container text-center">
         <h1>
 
         </h1>

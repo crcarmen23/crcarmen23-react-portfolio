@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className="aboutMe">
       <br />
-      <h1>About Me</h1>
+      <h1 className="aboutHeader">About Me</h1>
       <br />
       <div className="container">
       <aside><img className="headshot" src="/headshot.png" alt="Carmen Regina Headshot" /></aside>
