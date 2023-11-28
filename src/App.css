@@ -101,3 +101,9 @@ footer {
 .resume {
 text-align: left;
 }
+
+.btn {
+  background-color: #333;
+  border-color: #303538;
+  
+}
