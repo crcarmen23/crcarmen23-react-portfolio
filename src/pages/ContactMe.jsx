@@ -51,13 +51,10 @@ function ContactMe() {
   };
 
   return (
-    <div className="m-5">
+    <div className="m-5 min-vh-100">
       <h1 >Let's Get in Touch!</h1>
-      <div className="card container text-center m-3 w-50 position-absolute top-50 start-50 translate-middle">
-        <h1>
-
-        </h1>
-        <form className="form" onSubmit={handleFormSubmit}>
+      <div className="container text-center m-3 flex-column mb-3 justify-content-center align-items-center vh-50">
+        <form className="card form w-75 d-flex flex-column py-3 mb-3 justify-content-center align-items-center" onSubmit={handleFormSubmit}>
           <input
             value={firstName}
             name="firstName"
@@ -65,6 +62,7 @@ function ContactMe() {
             type="text"
             placeholder="First Name"
             required
+            className="w-75"
           />
           <input
             value={lastName}
@@ -73,6 +71,7 @@ function ContactMe() {
             type="text"
             placeholder="Last Name"
             required
+            className="w-75"
           />
           <input
             value={email}
@@ -81,16 +80,20 @@ function ContactMe() {
             type="text"
             placeholder="Email Address"
             required
+            className="w-75"
           />
-          <input
+          <textarea
             value={message}
             name="message"
             onChange={handleInputChange}
             type="text"
             placeholder="Message"
+            rows="3"
             required
-          />
-          <button type="submit" className="btn btn-primary m-2 shadow bg-body-tertiary rounded">
+            className="w-75 m-1"
+          ></textarea>
+          <br />
+          <button type="submit" className="btn btn-primary m-2 shadow bg-body-tertiary rounded w-25">
             Submit
           </button>
         </form>

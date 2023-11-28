@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   
 }
 
@@ -74,7 +74,7 @@ article {
   max-width: 1500px;
   margin: 0;
   text-align: center;
-  background-color: #a6caf1;
+  background-color: #a9c8e9;
 }
 
 body {
@@ -106,4 +106,8 @@ text-align: left;
   background-color: #333 !important;
   border-color: #303538;
   
+}
+
+.cardPortfolio {
+  height: 550px;
 }

@@ -1,6 +1,6 @@
 export default function Resume() {
   return (
-    <div className="resume m-5">
+    <div className="resume m-5 min-vh-100">
       <br />
       <h1>Resume</h1>
       <br />

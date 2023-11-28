@@ -2,7 +2,7 @@
 
 export default function AboutMe() {
   return (
-    <div className="aboutMe">
+    <div className="aboutMe min-vh-100">
       <br />
       <h1 className="aboutHeader">About Me</h1>
       <br />

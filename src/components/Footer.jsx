@@ -1,6 +1,6 @@
 export default function Footer (){
     return (
-        <footer>
+        <footer className="">
     <div className="footer-icons">
       <a href="https://github.com/crcarmen23" target="_blank" title="GitHub Profile" rel="noreferrer">
         <i className="fab fa-github"></i>

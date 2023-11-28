@@ -14,7 +14,7 @@ function NavTabs() {
             to="/"
             className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
           >
-            About Me
+            About
           </Link>
         </li>
         <li className="nav-item">
@@ -31,7 +31,7 @@ function NavTabs() {
             to="/ContactMe"
             className={currentPage === '/ContactMe' ? 'nav-link active' : 'nav-link'}
           >
-            Contact Me
+            Contact
           </Link>
         </li>
         <li className="nav-item">

@@ -60,8 +60,8 @@ export default function Portfolio() {
         {
           projects.map((project) => (
             <div className=".g col-md-4 col-sm-12 mb-5" key={project.title}>
-              <div className="card">
-                <img src={project.image} className="card-img-top" alt={project.alt}/>
+              <div className="card cardPortfolio">
+                <article style={{backgroundImage:`url(${project.image})`, backgroundSize:"contain", height: 300, backgroundRepeat: "no-repeat", backgroundPosition: "center"}} className="card-img-top" alt={project.alt}></article>
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text text-body-secondary">{project.description}</p>
