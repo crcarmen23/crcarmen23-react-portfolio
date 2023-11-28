@@ -3,41 +3,41 @@ export default function Portfolio() {
   const projects = [
     {
       title: "Style Saga",
+      description: "Street style fashion blog that allows users to stay informed on the ever-evolving world of fashion.",
+      deployed: "https://arcane-bastion-46349-44530c72db10.herokuapp.com/",
+      repo: "https://github.com/crcarmen23/style-saga",
+      image: "",
+    },
+    {
+      title: "Project 3",
       description: "",
       deployed: "",
       repo: "",
       image: "",
     },
     {
-      title: "",
+      title: "Europe in Your Pocket",
       description: "",
       deployed: "",
       repo: "",
       image: "",
     },
     {
-      title: "",
+      title: "Weather Dashboard",
       description: "",
       deployed: "",
       repo: "",
       image: "",
     },
     {
-      title: "",
+      title: "Work Day Scheduler",
       description: "",
       deployed: "",
       repo: "",
       image: "",
     },
     {
-      title: "",
-      description: "",
-      deployed: "",
-      repo: "",
-      image: "",
-    },
-    {
-      title: "",
+      title: "First Mockup Portfolio",
       description: "",
       deployed: "",
       repo: "",
@@ -59,8 +59,8 @@ export default function Portfolio() {
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
                     <p className="card-text">{project.description}</p>
-                    <a href={project.repo} className="btn btn-primary">Github Repo</a>
-                    <a href={project.deployed} className="btn btn-primary">Demo App</a>
+                    <a href={project.repo} className="btn btn-primary m-2">Github Repo</a>
+                    <a href={project.deployed} className="btn btn-primary m-2">Demo App</a>
                   </div>
               </div>
             </div>
