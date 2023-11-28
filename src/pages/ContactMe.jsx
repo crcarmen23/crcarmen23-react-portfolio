@@ -53,7 +53,7 @@ function ContactMe() {
   return (
     <div className="m-5">
       <h1>Let's Get in Touch!</h1>
-      <div className="card container text-center">
+      <div className="card container text-center m-3 w-50 position-absolute top-50 start-50 translate-middle">
         <h1>
 
         </h1>
