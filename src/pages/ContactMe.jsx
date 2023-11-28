@@ -90,7 +90,7 @@ function ContactMe() {
             placeholder="Message"
             required
           />
-          <button type="submit">
+          <button type="submit" className="btn btn-primary m-2 shadow bg-body-tertiary rounded">
             Submit
           </button>
         </form>

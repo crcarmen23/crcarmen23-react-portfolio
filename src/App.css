@@ -12,11 +12,11 @@ main {
 
 .nav-tabs {
   justify-content: center;
-  color: #333;
+  color: #333 !important;
 }
 
-.nav-item {
-  color: #333;
+.nav-link {
+  color: #333 !important;
 }
 
 .header {
@@ -74,7 +74,7 @@ article {
   max-width: 1500px;
   margin: 0;
   text-align: center;
-  background-color: #98c7f8;
+  background-color: #a6caf1;
 }
 
 body {
@@ -103,7 +103,7 @@ text-align: left;
 }
 
 .btn {
-  background-color: #333;
+  background-color: #333 !important;
   border-color: #303538;
   
 }

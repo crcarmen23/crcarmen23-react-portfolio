@@ -6,9 +6,9 @@ function NavTabs() {
   console.log(currentPage)
   return (
     <div>
-      <h1 className="header pt-4">Carmen Regina</h1>
+      <h1 className="header pt-4 fs-1 fw-bold">Carmen Regina</h1>
       <br />
-      <ul className="nav nav-tabs">
+      <ul className="nav nav-tabs fs-5">
         <li className="nav-item">
           <Link
             to="/"
