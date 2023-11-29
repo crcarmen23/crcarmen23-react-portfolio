@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <div className="aboutMe min-vh-100">
       <br />
-      <h2 className="aboutHeader">Hello, I'm Carmen Regina, a full-stack web developer based in Dallas, Texas.</h2>
+      <h2 className="aboutHeader">Hello! I'm Carmen Regina, a full-stack web developer based in Dallas, Texas.</h2>
       <br />
       <div className="container">
         <aside><img className="headshot" src="/headshot.jpg" alt="Carmen Regina Headshot" /></aside>
