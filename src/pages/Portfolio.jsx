@@ -6,7 +6,7 @@ export default function Portfolio() {
       description: "Street style fashion blog that allows users to stay informed on the ever-evolving world of fashion.",
       deployed: "https://arcane-bastion-46349-44530c72db10.herokuapp.com/",
       repo: "https://github.com/crcarmen23/style-saga",
-      image: "/stylesaga.png",
+      image: "/style.png",
       alt: "image of style saga homepage",
     },
     {
@@ -30,7 +30,7 @@ export default function Portfolio() {
       description: "Take a quiz and learn about the wonderful city of New York City. Finish as fast as possible while answering all the questions correctly to avoid a penalty on your score.",
       deployed: "https://crcarmen23.github.io/nyc-quiz/",
       repo: "https://github.com/crcarmen23/nyc-quiz",
-      image: "/nycquiz.png",
+      image: "/nyc.jpg",
       alt: "image of nyc quiz",
     },
     {
@@ -61,10 +61,10 @@ export default function Portfolio() {
           projects.map((project) => (
             <div className=".g col-md-4 col-sm-12 mb-5" key={project.title}>
               <div className="card cardPortfolio">
-                <article style={{backgroundImage:`url(${project.image})`, backgroundSize:"contain", height: 300, backgroundRepeat: "no-repeat", backgroundPosition: "center"}} className="card-img-top" alt={project.alt}></article>
+                <article style={{backgroundImage:`url(${project.image})`, backgroundSize: "contain", height: 330, backgroundRepeat: "no-repeat", backgroundPosition: "center"}} className="card-img py-5" alt={project.alt}></article>
                   <div className="card-body">
                     <h5 className="card-title">{project.title}</h5>
-                    <p className="card-text text-body-secondary">{project.description}</p>
+                    <p className="card-text">{project.description}</p>
                     <a href={project.repo} className="btn btn-primary m-2 shadow p-3 mb-5 bg-body-tertiary rounded">Github Repo</a>
                     <a href={project.deployed} className="btn btn-primary m-2 shadow p-3 mb-5 bg-body-tertiary rounded">Demo App</a>
                   </div>

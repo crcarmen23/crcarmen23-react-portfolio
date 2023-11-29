@@ -109,5 +109,15 @@ text-align: left;
 }
 
 .cardPortfolio {
-  height: 550px;
+  height: 600px;
+  background-color: #535555;
+  color: white;
+}
+
+.card-title {
+  height: 40px;
+}
+
+.card-text {
+  height: 100px;
 }
