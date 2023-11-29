@@ -19,9 +19,6 @@ export default function AboutMe() {
           <br />
           <br />
           I approach each project with enthusiasm and a commitment to continuous learning. The tech industry is ever-evolving, and I embrace the opportunity to learn something new every day. This passion for growth aligns with my aspiration to collaborate with a forward-thinking company, where I can contribute and expand my skills alongside like-minded professionals.
-          <br />
-          <br />
-          Thank you for visiting my portfolio and taking the time to learn a bit about me. I'm excited about the possibilities that lie ahead, and I invite you to explore my projects and get in touch. Let's connect and create something amazing together!
         </p></article>
       </div>
       <br />

@@ -7,7 +7,7 @@ body {
 
 main {
   height: 100%;
-  
+
 }
 
 .nav-tabs {
@@ -20,7 +20,7 @@ main {
 }
 
 .header {
- text-align: center;
+  text-align: center;
 }
 
 a {
@@ -49,7 +49,8 @@ aside {
   display: flex;
   align-items: center;
 }
-article { 
+
+article {
   padding-left: 25px;
   text-align: center;
   align-self: center;
@@ -57,7 +58,7 @@ article {
 
 .container {
   display: flex;
-  max-width: 3000px; 
+  max-width: 3000px;
 }
 
 .form {
@@ -101,13 +102,13 @@ footer {
 }
 
 .resume {
-text-align: left;
+  text-align: left;
 }
 
 .btn {
   background-color: #333 !important;
   border-color: #303538;
-  
+
 }
 
 .cardPortfolio {
@@ -122,4 +123,9 @@ text-align: left;
 
 .card-text {
   height: 100px;
+}
+
+.contactDescription {
+  padding-left: 120px;
+  padding-right: 120px;
 }
