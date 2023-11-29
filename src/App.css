@@ -43,9 +43,11 @@ a {
 
 aside {
   flex-basis: 50%;
-  border-right: 4px solid #303538;
+  border-right: 3px solid #303538;
   margin: 0px 0px 0px 0px;
   padding-right: 50px;
+  display: flex;
+  align-items: center;
 }
 article { 
   padding-left: 25px;
