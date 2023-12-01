@@ -24,7 +24,8 @@ main {
 }
 
 a {
-  color: #333;
+  color: white;
+  text-decoration: none;
 }
 
 .aboutHeader {
