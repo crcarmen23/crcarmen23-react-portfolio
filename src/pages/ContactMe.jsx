@@ -44,10 +44,6 @@ function ContactMe() {
 
     }
 
-    // Alert the user their first and last name, clear the inputs
-    alert(`Hello ${firstName} ${lastName}`);
-    setFirstName('');
-    setLastName('');
   };
 
   return (
@@ -55,13 +51,13 @@ function ContactMe() {
       <h1 >Let's Get in Touch!</h1>
       <p className="contactDescription m-4">Thank you for visiting my portfolio and taking the time to learn a bit about me. I'm excited about the possibilities that lie ahead, and I invite you to explore my projects and get in touch. Let's connect and create something amazing together!</p>
       <div className="container text-center flex-column mb-3 justify-content-center align-items-center vh-50">
-        <form className="card form w-75 d-flex flex-column py-3 mb-3 justify-content-center align-items-center" onSubmit={handleFormSubmit}>
+        <form className="card form w-75 d-flex flex-column py-3 mb-3 justify-content-center align-items-center" onSubmit={handleFormSubmit} action="https://getform.io/f/5b17ca2d-9c81-4cc9-941c-d0adcd3f6cb0" method="POST">
           <input
             value={firstName}
             name="firstName"
             onChange={handleInputChange}
             type="text"
-            placeholder="First Name"
+            placeholder="first name"
             required
             className="w-75"
           />
@@ -70,7 +66,7 @@ function ContactMe() {
             name="lastName"
             onChange={handleInputChange}
             type="text"
-            placeholder="Last Name"
+            placeholder="last name"
             required
             className="w-75"
           />
@@ -79,7 +75,7 @@ function ContactMe() {
             name="email"
             onChange={handleInputChange}
             type="text"
-            placeholder="Email Address"
+            placeholder="email address"
             required
             className="w-75"
           />
@@ -88,14 +84,14 @@ function ContactMe() {
             name="message"
             onChange={handleInputChange}
             type="text"
-            placeholder="Message"
+            placeholder="your message"
             rows="3"
             required
             className="w-75 m-1"
           ></textarea>
           <br />
           <button type="submit" className="btn btn-primary m-2 shadow bg-body-tertiary rounded w-25">
-            Submit
+            Send Message
           </button>
         </form>
         {errorMessage && (

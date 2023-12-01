@@ -10,10 +10,10 @@ export default function Portfolio() {
       alt: "image of style saga homepage",
     },
     {
-      title: "Project 3",
-      description: "",
+      title: "La Dolce Vita",
+      description: "Italian Restaurant",
       deployed: "",
-      repo: "",
+      repo: "https://github.com/crcarmen23/la-dolce-vita",
       image: "",
       alt: "image of project 3 homepage",
     },
