@@ -83,8 +83,9 @@ body {
   text-decoration: underline;
 }
 
-.frontEndProf {
-  
+.proficiencies {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -136,6 +137,12 @@ footer {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+  }
+
+  article {
+    margin: auto;
+    padding: auto;
+
   }
   
 }

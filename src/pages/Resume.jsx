@@ -7,8 +7,8 @@ export default function Resume() {
       <a href="https://publuu.com/flip-book/311328/719974" className="resumeLink">Link to Resume PDF</a>
       <br />
       <br />
-      <div className="d-inline-flex ">
-        <div className="card .g col-md-6 col-sm-12 frontEndProf m-3">
+      <div className="d-flex m-3 justify-content-center text-center proficiencies">
+        <div className="d-flex card .g col-md-4 col-sm-12 m-3">
           <h3 className="card-title">Front-end Proficiencies:</h3>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">HTML</li>
@@ -21,7 +21,7 @@ export default function Resume() {
             <li className="list-group-item">Bootstrap</li>
           </ul>
         </div>
-        <div className="card .g col-md-6 col-sm-12 backEndProf m-3">
+        <div className="d-flex card .g col-md-4 col-sm-12 m-3">
           <h3 className="card-title">Back-end Proficiencies:</h3>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">APIs</li>
