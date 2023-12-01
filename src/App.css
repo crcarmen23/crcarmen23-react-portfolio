@@ -112,6 +112,14 @@ body {
   height: 100px;
 }
 
+.profTitle {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 footer {
   background-color: #333;
   color: #fff;

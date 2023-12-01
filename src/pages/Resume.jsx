@@ -9,7 +9,7 @@ export default function Resume() {
       <br />
       <div className="d-flex m-3 justify-content-center text-center proficiencies">
         <div className="d-flex card .g col-md-4 col-sm-12 m-3">
-          <h3 className="card-title">Front-end Proficiencies:</h3>
+          <h3 className="card-title fs-2 profTitle">Front-end Proficiencies</h3>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">HTML</li>
             <li className="list-group-item">CSS</li>
@@ -22,7 +22,7 @@ export default function Resume() {
           </ul>
         </div>
         <div className="d-flex card .g col-md-4 col-sm-12 m-3">
-          <h3 className="card-title">Back-end Proficiencies:</h3>
+          <h3 className="card-title fs-2 profTitle">Back-end Proficiencies</h3>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">APIs</li>
             <li className="list-group-item">Node</li>
