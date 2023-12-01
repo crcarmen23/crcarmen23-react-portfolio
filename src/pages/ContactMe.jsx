@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from 'react';
+import axios from "axios";
 
 function ContactMe() {
 
@@ -39,11 +40,17 @@ function ContactMe() {
 
     if (!validateEmail(email)) {
       setErrorMessage('Email address is invalid');
-
       return;
-
     }
 
+    axios
+      .post(
+        "https://getform.io/f/5b17ca2d-9c81-4cc9-941c-d0adcd3f6cb0", {
+        message: "",
+      },
+        { headers: { 'Accept': 'application/json' } })
+      .then(response => console.log(response))
+      .catch(error => console.log(error))
   };
 
   return (

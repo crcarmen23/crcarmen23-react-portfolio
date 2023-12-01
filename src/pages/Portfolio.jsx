@@ -11,7 +11,7 @@ export default function Portfolio() {
     },
     {
       title: "La Dolce Vita",
-      description: "Browse the La Dolce Vita (Italian restaurant) menu and effortlessly place your order for pickup or delivery.",
+      description: "Every dish is a celebration of life's sweetest moments. Browse La Dolce Vita's delicious Italian menu and effortlessly place your order for pickup or delivery.",
       deployed: "",
       repo: "https://github.com/crcarmen23/la-dolce-vita",
       image: "/ladolce.jpg",

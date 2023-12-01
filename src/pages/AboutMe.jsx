@@ -1,10 +1,26 @@
 /* eslint-disable react/no-unescaped-entities */
+import { TypeAnimation } from 'react-type-animation';
 
 export default function AboutMe() {
   return (
     <div className="aboutMe min-vh-100">
       <br />
-      <h2 className="aboutHeader">Hello! I'm Carmen Regina, a full-stack web developer based in Dallas, Texas.</h2>
+      <h2 className="aboutHeader">Hello! I'm Carmen Regina, a <TypeAnimation className="typist"
+      sequence={[
+        'full-stack developer',
+        2000,
+        'software engineer',
+        2000,
+        'content producer',
+        2000,
+        'web designer',
+        2000
+      ]}
+      wrapper="span"
+      speed={50}
+      style={{display: 'inline-block' }}
+      repeat={Infinity}
+    /> based in Dallas, Texas.</h2>
       <br />
       <div className="container">
         <aside><img className="headshot" src="/headshot.jpg" alt="Carmen Regina Headshot" /></aside>
