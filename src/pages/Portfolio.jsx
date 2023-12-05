@@ -12,7 +12,7 @@ export default function Portfolio() {
     {
       title: "La Dolce Vita",
       description: "Every dish is a celebration of life's sweetest moments. Browse La Dolce Vita's delicious Italian menu and effortlessly place your order for pickup or delivery.",
-      deployed: "",
+      deployed: "https://la-dolce-vita-257152a676c7.herokuapp.com/",
       repo: "https://github.com/crcarmen23/la-dolce-vita",
       image: "/ladolce.jpg",
       alt: "image of project 3 homepage",
