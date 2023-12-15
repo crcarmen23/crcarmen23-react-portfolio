@@ -10,7 +10,7 @@ function ContactMe() {
         <p>Preferred Work Location: Dallas, Texas or Remote/Hybrid</p>
         <button type="button" className="btn btn-secondary m-3 contactButton"><a href="https://github.com/crcarmen23">My Github Profile</a></button>
         <button type="button" className="btn btn-secondary m-3 contactButton"><a href="https://www.linkedin.com/in/carmen-regina/">Connect on LinkedIn</a></button>
-        <button type="button" className="btn btn-secondary m-3 contactButton"><a href="https://publuu.com/flip-book/311328/719974/page/1">Resume PDF</a></button>
+        <button type="button" className="btn btn-secondary m-3 contactButton"><a href="https://drive.google.com/file/d/1hfYnyY4rn_VHjERi5Va_5-jbf9w9QeUA/view?usp=sharing">Resume PDF</a></button>
         <button type="button" className="btn btn-secondary m-3 contactButton"><a href="mailto:crcarmen23@yahoo.com">Email Me</a></button>
        </div>
     </div>

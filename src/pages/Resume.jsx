@@ -4,7 +4,7 @@ export default function Resume() {
       <br />
       <h1>Resume</h1>
       <br />
-      <a href="https://publuu.com/flip-book/311328/719974" className="resumeLink">Link to Resume PDF</a>
+      <a href="https://drive.google.com/file/d/1hfYnyY4rn_VHjERi5Va_5-jbf9w9QeUA/view?usp=sharing" className="resumeLink">Link to Resume PDF</a>
       <br />
       <br />
       <div className="d-flex m-3 justify-content-center text-center proficiencies">
